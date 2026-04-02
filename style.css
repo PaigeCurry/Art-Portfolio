@@ -72,7 +72,7 @@ header {
    ========================= */
 .hero {
     height: 300px;
-    background-image: url("images/WhiteDoves.JPG"); /* or SadBoy.JPG */
+    background-image: url("images/Bunnies.JPG"); /* or SadBoy.JPG */
     background-size: cover;
     background-position: center;
     display: flex;

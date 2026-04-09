@@ -72,9 +72,9 @@ header {
    ========================= */
 .hero {
     height: 300px;
-    background-image: url("images/Bunnies.JPG"); /* or SadBoy.JPG */
+    background-image: url("images/SadBoy.JPG"); /* or SadBoy.JPG */
     background-size: cover;
-    background-position: center;
+    background-position: center 30%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -131,17 +131,6 @@ header {
 /* Optional: fine-tune vertical position more precisely */
 .hero-portfolio {
     background-position: center 26%; /* 0% = top, 50% = center, 100% = bottom */
-}
-
-/* Optional: overlay for slightly darker look */
-.hero-portfolio::before {
-    content: "";
-    position: absolute;
-    top: 0; left: 0;
-    width: 100%; height: 100%;
-    background-color: rgba(0,0,0,0.3); /* subtle dark overlay */
-    z-index: 1;
-    /* border-radius not needed, overflow:hidden handles it */
 }
 
 /* Page subtitle styling (beneath hero) */
